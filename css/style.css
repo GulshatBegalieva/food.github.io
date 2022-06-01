@@ -41,7 +41,8 @@ li.active_li a {
   background: url(../images/img/home_bg.png) no-repeat;
   background-size: cover;
   background-position: 100%;
-  padding-top: calc(15px  + 15 * ((100vw - 320px) / 1280));
+  padding-top: calc(15px
+  + 15 * ((100vw - 320px) / 1280));
   height: 938px;
 }
 
@@ -82,7 +83,8 @@ li.active_li a {
 }
 
 .home main nav ul li {
-  margin-right: calc(0px  + 50 * ((100vw - 320px) / 1280));
+  margin-right: calc(0px
+  + 50 * ((100vw - 320px) / 1280));
 }
 
 .home main nav ul li a {
@@ -115,7 +117,8 @@ li.active_li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: calc(34px  + 60 * ((100vw - 320px) / 1280));
+  padding-top: calc(34px
+  + 60 * ((100vw - 320px) / 1280));
   margin-left: calc(50px + (230 - 50) * ((100vw - 768px) / (1600 - 768)));
 }
 
@@ -128,8 +131,10 @@ li.active_li a {
   font-family: 'Asap';
   font-style: normal;
   font-weight: 700;
-  font-size: calc(48px  + 19 * ((100vw - 320px) / 1280));
-  line-height: calc(62px  + 25 * ((100vw - 320px) / 1280));
+  font-size: calc(48px
+  + 19 * ((100vw - 320px) / 1280));
+  line-height: calc(62px
+  + 25 * ((100vw - 320px) / 1280));
   color: #191700;
   margin-bottom: 16px;
 }
@@ -145,7 +150,8 @@ li.active_li a {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: calc(15px  + 3 * ((100vw - 320px) / 1280));
+  font-size: calc(15px
+  + 3 * ((100vw - 320px) / 1280));
   line-height: 27px;
   color: #08150A;
   margin-bottom: 40px;
@@ -161,12 +167,15 @@ li.active_li a {
   background: url(../images/img/home-food.png) no-repeat;
   background-size: cover;
   background-position: 50% 0;
-  width: calc(300px  + 363 * ((100vw - 320px) / 1280));
-  height: calc(300px  + 389 * ((100vw - 320px) / 1280));
+  width: calc(300px
+  + 363 * ((100vw - 320px) / 1280));
+  height: calc(300px
+  + 389 * ((100vw - 320px) / 1280));
 }
 
 .products .top {
-  width: calc(300px  + 745 * ((100vw - 320px) / 1280));
+  width: calc(300px
+  + 745 * ((100vw - 320px) / 1280));
   margin-left: auto;
   margin-right: auto;
   display: -webkit-box;
@@ -179,7 +188,8 @@ li.active_li a {
           justify-content: space-between;
   text-align: center;
   row-gap: 40px;
-  margin-top: calc(40px  + 51 * ((100vw - 320px) / 1280));
+  margin-top: calc(40px
+  + 51 * ((100vw - 320px) / 1280));
 }
 
 .products .top .item {
@@ -219,7 +229,8 @@ li.active_li a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: calc(40px  + 160 * ((100vw - 320px) / 1280));
+  margin-top: calc(40px
+  + 160 * ((100vw - 320px) / 1280));
   margin-left: auto;
   margin-right: auto;
   -ms-flex-wrap: wrap;
@@ -230,43 +241,52 @@ li.active_li a {
 }
 
 .products .center .img {
-  height: calc(270px  + 203 * ((100vw - 320px) / 1280));
-  width: calc(300px  + 227 * ((100vw - 320px) / 1280));
+  height: calc(270px
+  + 203 * ((100vw - 320px) / 1280));
+  width: calc(300px
+  + 227 * ((100vw - 320px) / 1280));
 }
 
 .products .center .img img {
-  width: calc(300px  + 227 * ((100vw - 320px) / 1280));
+  width: calc(300px
+  + 227 * ((100vw - 320px) / 1280));
 }
 
 .products .center .text {
-  width: calc(300px  + 155 * ((100vw - 320px) / 1280));
+  width: calc(300px
+  + 155 * ((100vw - 320px) / 1280));
 }
 
 .products .center .text .top_p {
   font-family: 'Asap';
   font-style: normal;
   font-weight: 700;
-  font-size: calc(38px  + 13 * ((100vw - 320px) / 1280));
-  line-height: calc(50px  + 8 * ((100vw - 320px) / 1280));
+  font-size: calc(38px
+  + 13 * ((100vw - 320px) / 1280));
+  line-height: calc(50px
+  + 8 * ((100vw - 320px) / 1280));
   opacity: 1;
 }
 
 .products .center .text .top_p:not(:last-child) {
-  margin-bottom: calc(23px  + 4 * ((100vw - 320px) / 1280));
+  margin-bottom: calc(23px
+  + 4 * ((100vw - 320px) / 1280));
 }
 
 .products .center .text p {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: calc(15px  + 3 * ((100vw - 320px) / 1280));
+  font-size: calc(15px
+  + 3 * ((100vw - 320px) / 1280));
   line-height: 27px;
   color: #08150A;
   opacity: 0.8;
 }
 
 .products .center .text p:not(:last-child) {
-  margin-bottom: calc(29px  + 5 * ((100vw - 320px) / 1280));
+  margin-bottom: calc(29px
+  + 5 * ((100vw - 320px) / 1280));
 }
 
 .products .center .price {
@@ -304,8 +324,10 @@ li.active_li a {
 }
 
 .products .bottom {
-  width: calc(320px  + 838 * ((100vw - 320px) / 1280));
-  margin-top: calc(80px  + 121 * ((100vw - 320px) / 1280));
+  width: calc(320px
+  + 838 * ((100vw - 320px) / 1280));
+  margin-top: calc(80px
+  + 121 * ((100vw - 320px) / 1280));
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px;
@@ -314,8 +336,10 @@ li.active_li a {
 .products .bottom .h {
   font-family: 'Asap';
   font-weight: 700;
-  font-size: calc(38px  + 13 * ((100vw - 320px) / 1280));
-  line-height: calc(52px  + 9 * ((100vw - 320px) / 1280));
+  font-size: calc(38px
+  + 13 * ((100vw - 320px) / 1280));
+  line-height: calc(52px
+  + 9 * ((100vw - 320px) / 1280));
   color: #08150A;
   opacity: 1;
 }
@@ -325,13 +349,15 @@ li.active_li a {
 }
 
 .products .bottom .border {
-  width: calc(300px  + 839.15 * ((100vw - 320px) / 1280));
+  width: calc(300px
+  + 839.15 * ((100vw - 320px) / 1280));
   opacity: 0.12;
   border-bottom: 2px solid #AD8709;
 }
 
 .products .bottom .content {
-  margin-top: calc(30px  + 106 * ((100vw - 320px) / 1280));
+  margin-top: calc(30px
+  + 106 * ((100vw - 320px) / 1280));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -463,7 +489,8 @@ li.active_li a {
 }
 
 .blog {
-  margin-top: calc(60px  + 165 * ((100vw - 320px) / 1280));
+  margin-top: calc(60px
+  + 165 * ((100vw - 320px) / 1280));
 }
 
 .blog .content {
@@ -485,11 +512,13 @@ li.active_li a {
 }
 
 .blog .content .left {
-  width: calc(300px  + 356.5 * ((100vw - 320px) / 1280));
+  width: calc(300px
+  + 356.5 * ((100vw - 320px) / 1280));
 }
 
 .blog .content .left .top {
-  margin-bottom: calc(20px  + 30 * ((100vw - 320px) / 1280));
+  margin-bottom: calc(20px
+  + 30 * ((100vw - 320px) / 1280));
 }
 
 .blog .content .left .top p {
@@ -556,7 +585,8 @@ li.active_li a {
 }
 
 .blog .content .right img {
-  width: calc(300px  + 231 * ((100vw - 320px) / 1280));
+  width: calc(300px
+  + 231 * ((100vw - 320px) / 1280));
 }
 
 .contact {
@@ -566,9 +596,12 @@ li.active_li a {
 }
 
 .contact .content {
-  padding-top: calc(120px  + 17 * ((100vw - 320px) / 1280));
-  padding-bottom: calc(30px  + 54 * ((100vw - 320px) / 1280));
-  width: calc(300px  + 838.37 * ((100vw - 320px) / 1280));
+  padding-top: calc(120px
+  + 17 * ((100vw - 320px) / 1280));
+  padding-bottom: calc(30px
+  + 54 * ((100vw - 320px) / 1280));
+  width: calc(300px
+  + 838.37 * ((100vw - 320px) / 1280));
   margin-left: auto;
   margin-right: auto;
   display: -webkit-box;
@@ -693,7 +726,8 @@ li.active_li a {
   }
   .home main nav ul li a {
     font-size: calc(18px + (25 - 18) * ((100vw - 1600px) / (2565 - 1600)));
-    font-size: calc(18px  + 7 * ((100vw - 320px) / 1280));
+    font-size: calc(18px
+  + 7 * ((100vw - 320px) / 1280));
   }
   .home main nav .btn {
     width: calc(184px + (239 - 184) * ((100vw - 1600px) / (2565 - 1600)));
@@ -723,7 +757,8 @@ li.active_li a {
   }
   .home .content .left {
     text-align: center;
-    width: calc(300px  + 104 * ((100vw - 320px) / 1280));
+    width: calc(300px
+  + 104 * ((100vw - 320px) / 1280));
     width: calc(290px + (595 - 290) * ((100vw - 320px) / (900 - 320)));
     margin: 0;
   }
@@ -777,9 +812,7 @@ li.active_li a {
     z-index: 1000;
     width: 280px;
     height: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: flex-start;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -793,10 +826,10 @@ li.active_li a {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
-    margin-top: 55px;
+    margin-top: 110px;
   }
   .home main nav ul li {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .home main nav ul li:last-child {
     margin-bottom: 0;
